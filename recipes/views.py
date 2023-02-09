@@ -8,5 +8,4 @@ def home_view(request):
 
 
 def recipe(request, id):
-    id = id + 1
-    return render(request, 'recipes/pages/home.html')
+    return render(request, 'recipes/pages/recipes-home.html')
